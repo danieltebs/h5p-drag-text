@@ -1,0 +1,41 @@
+{
+  "semantics": [
+  {
+    "label": "Text",
+    "placeholder": "*Oslo* ist die Hauptstadt von Norwegen, *Stockholm* ist die Hauptstadt von Schweden und *Kopenhagen* ist die Hauptstadt von Dänemark. Alle diese Städte befinden sich in *Skandinavien:Nordeuropa*.",
+    "description": "Lückenwörter werden durch Sternchen (*) vor und nach dem Wort erzeugt. Es können so auch mehrere Wörter ausgewählt werden. Man kann auch Tipps hinzufügen, indem man einen Doppelpunkt (:) zwischen das Lückenwort und den Tipp setzt. Beispiel: H5P-Einträge müssen mit einem *Browser:Etwas, was du nutzt, um im Internet zu surfen* erstellt werden.<br>Für jede Lücke gibt es immer nur ein richtiges Wort."
+  },
+  {
+    "label": "Text für den \"Lösungs\"-Button",
+    "default": "Lösung überprüfen"
+  },
+  {
+    "label": "Text für \"Wiederholen\"-Button",
+    "default": "Nochmal versuchen"
+  },
+  {
+    "label": "Text für \"Lösung-anzeigen\"-Button",
+    "default": "Lösung anzeigen"
+  },
+  {
+    "label": "Rückmeldungs-Text",
+    "default": "Du hast @score von @total points erreicht.",
+    "description": "Rückmeldungs-Text, mögliche Variablen: @score und @total. Beispiel: 'Du hast @score von @total möglichen Punkten erreicht.'"
+  },
+  {
+    "label": "Interaktionseinstellungen.",
+    "description": "Diese Einstellungen betreffen die Interationen im Bezug auf das Lösen der Aufgabe.",
+    "fields": [
+      {
+        "label": "Ermögliche \"Wiederholungen\""
+      },
+      {
+        "label": "Aktiviere den \"Lösung-anzeigen\"-Button"
+      },
+      {
+        "label": "Sofortige Rückmeldung"
+      }
+    ]
+  }
+]
+}
